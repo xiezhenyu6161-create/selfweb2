@@ -208,8 +208,8 @@ export default function App() {
             <div className="profile-layout">
               <figure className="portrait-card reveal-item">
                 <img
-                  src="/assets/images/portrait-great-wall.webp"
-                  alt="谢振宇在长城的个人照片"
+                  src="/assets/images/portrait-professional.png"
+                  alt="谢振宇的个人职业头像"
                 />
                 <figcaption>
                   <span>{portfolioData.name}</span>

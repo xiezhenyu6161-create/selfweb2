@@ -12,7 +12,7 @@ import {
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const projectImages = projectGroups.flatMap((project) => project.images);
 const expected = [
-  '/assets/images/portrait-great-wall.webp',
+  '/assets/images/portrait-professional.png',
   ...projectImages.flatMap((item) => [item.src, item.thumb]),
 ];
 
